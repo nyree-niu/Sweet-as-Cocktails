@@ -1,10 +1,10 @@
-@import '../../styles/variables';
+@use '../../styles/variables';
 
 .cocktail-list-container {
   width: 48vw;
   min-width: 400px;
   max-width: 520px;
-  background-color: $menu-background-color;
+  background-color: variables.$menu-background-color;
   border-radius: 20px;
   padding: 20px 40px 20px 10px;
 
@@ -21,28 +21,28 @@
     h2 {
       font-size: 1.2rem;
       margin-bottom: 6px;
-      color: $secondary-color;
+      color: variables.$secondary-color;
     }
 
     h3 {
       font-size: 0.8rem;
       font-weight: 400;
       margin-bottom: 6px;
-      color: $menu-text-color;
+      color: variables.$menu-text-color;
     }
 
     p {
       font-size: 1rem;
       margin-bottom: 6px;
       font-weight: 600;
-      color: $menu-text-color;
+      color: variables.$menu-text-color;
     }
 
     .cocktail-item-icons {
       width: 50px;
       display: flex;
       justify-content: space-between;
-      color: $light-color;
+      color: variables.$light-color;
       margin-left: 10px;
       cursor: pointer;
     }
